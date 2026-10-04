@@ -1,0 +1,6 @@
+{
+ "scratch_vs_sklearn": "scratch : intercept =  0.07492, coef =  2.67037, converged in 7 Newton steps\nsklearn : intercept =  0.07443, coef =  2.67033\nmax |P_scratch - P_sklearn| on training data: 7.113524849344799e-05\n",
+ "filter_check": "max |A1X_raw - A1X_lowpass|  = 1.08e-07 g\nmax |A1X_raw - A1X_bandpass| = 7.59e-11 g\nmean 1X SNR raw / low-pass  = 48.2 dB / 48.2 dB\n",
+ "summary_counts": "Final labels: {'HEALTHY': 20, 'FAULTY': 10}\nRecords where the four models disagree: 0\n\nLabel counts by model:\n          A   B   C   D\nhealthy  20  20  20  20\nfaulty   10  10  10  10\n",
+ "pair_model": "fitted model:  z = 1.939\u00b7A1X* + 1.339\u00b7A2X* + 0.157   (features standardized with training mean/std)\n"
+}
